@@ -7,7 +7,7 @@
 
 class StorageClient{
      private:
-     StorageObject fetch_data_from_storage(std::string cell_id);
+     
 
      public:
      StorageClient();
@@ -24,6 +24,8 @@ class StorageClient{
 
      void post_data_to_storage(StorageObject data);
 
+     StorageObject fetch_data_from_storage(std::string cell_id);
+     
      ~StorageClient(){}
 
 };
