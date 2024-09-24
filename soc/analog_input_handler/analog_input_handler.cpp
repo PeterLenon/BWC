@@ -12,8 +12,14 @@ AnalogInputObject AnalogInputHandler::fetch_inputs(){
      return data;
 };
 
-double AnalogInputHandler::fetch_current(){};
+double AnalogInputHandler::fetch_current(){
+     return 1;
+};
 
-double AnalogInputHandler::fetch_voltage(){};
+double AnalogInputHandler::fetch_voltage(){
+     return 3.6;
+};
 
-double AnalogInputHandler::fetch_temperature(){};
+double AnalogInputHandler::fetch_temperature(){
+     return 25;
+};
