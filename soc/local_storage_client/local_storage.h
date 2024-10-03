@@ -25,6 +25,10 @@ class StorageClient{
      void post_data_to_storage(StorageObject data);
 
      StorageObject fetch_data_from_storage(std::string cell_id);
+
+     double fetch_highestSOC();
+
+     double fetch_lowestSOC();
      
      ~StorageClient(){}
 
